@@ -42,6 +42,6 @@ The promise will be [*fulfilled*](https://promisesaplus.com/#point-26) with a [J
 
 ## License
 
-Copyright (c) 2015 [Shinnosuke Watanabe](https://github.com/shinnn)
+Copyright (c) 2015 - 2016 [Shinnosuke Watanabe](https://github.com/shinnn)
 
 Licensed under [the MIT License](./LICENSE).
