@@ -3,8 +3,8 @@
 [![NPM version](https://img.shields.io/npm/v/gh-verified-public-keys.svg)](https://www.npmjs.com/package/gh-verified-public-keys)
 [![Build Status](https://travis-ci.org/shinnn/gh-verified-public-keys.svg?branch=master)](https://travis-ci.org/shinnn/gh-verified-public-keys)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/gh-verified-public-keys.svg)](https://coveralls.io/github/shinnn/gh-verified-public-keys)
-[![Dependency Status](https://david-dm.org/shinnn/gh-verified-public-keys.svg)](https://david-dm.org/shinnn/gh-verified-public-keys)
-[![devDependency Status](https://david-dm.org/shinnn/gh-verified-public-keys/dev-status.svg)](https://david-dm.org/shinnn/gh-verified-public-keys#info=devDependencies)
+[![dependencies Status](https://david-dm.org/shinnn/gh-verified-public-keys/status.svg)](https://david-dm.org/shinnn/gh-verified-public-keys)
+[![devDependencies Status](https://david-dm.org/shinnn/gh-verified-public-keys/dev-status.svg)](https://david-dm.org/shinnn/gh-verified-public-keys?type=dev)
 
 Get the verified [public keys](https://help.github.com/articles/generating-ssh-keys/) associated with a given [Github](https://github.com/) account
 
@@ -12,7 +12,7 @@ Get the verified [public keys](https://help.github.com/articles/generating-ssh-k
 const ghVerifiedPublicKeys = require('gh-verified-public-keys');
 
 ghVerifiedPublicKeys('othiym23').then(keys => {
-  keys; //=> [{id: 1965441, key: 'ssh-dss AAAAB3Nza...'}, {id: 3322010, key: '...'}, ...] 
+  keys; //=> [{id: 1965441, key: 'ssh-dss AAAAB3Nza...'}, {id: 3322010, key: '...'}, ...]
 });
 ```
 
