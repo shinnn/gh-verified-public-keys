@@ -1,4 +1,4 @@
-'use strong';
+'use strict';
 
 const ghVerifiedPublicKeys = require('.');
 const test = require('tape');
@@ -35,7 +35,7 @@ test('ghVerifiedPublicKeys()', t => {
     t.strictEqual(
       err.message,
       '401 Unauthorized (Bad credentials)',
-      'should fail when it cannot get the rate limit status.'
+      'should fail when it takes an invalid Github token.'
     );
   }).catch(t.fail);
 
